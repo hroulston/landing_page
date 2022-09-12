@@ -26,6 +26,7 @@ img {
     justify-content: space-evenly;
     padding-top: 100px;
     padding: 50px;
+    padding-bottom: 100px;
     
 }
 
@@ -53,3 +54,31 @@ img {
     color: white;
 }
 
+.card-header {
+    text-align: center;
+}
+
+.cards {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 60px;
+    margin-top: 80px;
+}
+
+.one-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: 130px;
+}
+
+.card {
+    height: 135px;
+    width: 130px;
+    border-color: #3882F6;
+    border-width: 3px;
+    border-style: solid;
+    border-radius: 15px;
+}
