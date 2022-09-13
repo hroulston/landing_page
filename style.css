@@ -87,7 +87,7 @@ img {
 .quote-banner {
     display: flex;
     justify-content: center;
-    margin-bottom: 80px;
+    margin-bottom: 150px;
 }
 
 .quote {
@@ -98,4 +98,44 @@ img {
 .second-quote {
     display: flex;
     justify-content: end;
+}
+
+.call-to-action-banner {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 100px;
+}
+
+.call-to-action {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #3882F6;
+    color: white;
+    height: 100px;
+    width: 800px;
+    border-radius: 8px;
+}
+
+.action-p-one {
+    margin-bottom: 0px;
+}
+
+.action-p-two {
+    margin-top: 0px;
+}
+
+.action-button {
+    height: 30px;
+    width: 100px;
+    border-radius: 5px;
+    background-color: #3882F6;
+    color: white;
+    border: 1px solid white;
+}
+
+.footer {
+    text-align: center;
+    margin-top: 200px;
 }
