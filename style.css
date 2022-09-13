@@ -64,6 +64,7 @@ img {
     justify-content: center;
     gap: 60px;
     margin-top: 80px;
+    padding-bottom: 80px;
 }
 
 .one-card {
@@ -81,4 +82,20 @@ img {
     border-width: 3px;
     border-style: solid;
     border-radius: 15px;
+}
+
+.quote-banner {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 80px;
+}
+
+.quote {
+    height: 100px;
+    width: 500px;
+}
+
+.second-quote {
+    display: flex;
+    justify-content: end;
 }
