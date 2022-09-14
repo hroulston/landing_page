@@ -140,10 +140,10 @@ a:hover {
 }
 
 .first-quote {
-    font-weight: 200;
-    font-size: 36px;    
+    font-size: 36px;
+    font-weight: 100;    
     font-style: italic;
-    color: #1f2937;
+    color: grey;
     margin-bottom: 20px;
 
 }
